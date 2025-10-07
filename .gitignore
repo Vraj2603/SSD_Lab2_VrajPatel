@@ -6,6 +6,16 @@
 # dotenv files
 .env
 
+# --- Mohawk Lab 2 Secure Deployment Additions ---
+appsettings.Development.json
+secrets.json
+appsettings.*.json
+# This keeps any file like appsettings.Development.json, appsettings.Staging.json, etc. from leaking
+
+# --- END Additions ---
+
+
+
 # User-specific files
 *.rsuser
 *.suo
